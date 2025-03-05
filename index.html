@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Jonathan Park</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="my-photo.jpg" alt="My Photo" class="profile-img">
+                <p>
+                    Hi, My name is Jonathan Park, and my ethnicity is Korean and I'm a Undergraduate Student at Queens College. I am majoring in Computer Science. I went to Queensborough Community College then transfered to Queens College since its the closest to my house out of all the CUNY's and also was a way to be with my mother and take care of her.
+                </p>
+                <p>
+                    The picture above is a picture that I took during my trip to South Korea with my mother and I was in middle school but this picture is important as this is the last picture I took during South Korea which is a place my mother was born and loved. It's very important as she recently passed away.
+                </p>
+                <p>
+                    My dream was to have a stable job and help out my parents and send my mother to South Korea as a trip since she misses her family there and the last time we visited, she had a very fun time there but since my mother passed, I'm currently trying to find a purpose and I haven't figured it out yet. It seems like it would take a while for me to figure things out.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            
+            <!-- Contact Form -->
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+        <p>Feel free to reach out to me on email or github:</p>
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:havoc235698@gmail.com">havoc235698@gmail.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/jonp4" target="_blank">github.com/jonp4</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jonathan Park. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
